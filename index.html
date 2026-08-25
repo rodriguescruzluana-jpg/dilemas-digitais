@@ -4,31 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dilemas Digitais - Blog da Thuly</title>
-
+    <title>Dilemas Digitais - Meu Blog</title>
     <style>
         header {
             background-color: #183C63;
             color: #FFFFFF;
             text-align: center;
             max-width: 800px;
+            margin-bottom: 30px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 15px;
+        }
+
+        body {
+            background-color: yellow; /* Corrigido sem aspas */
         }
 
         main {
-            background-color: #c964f8;
+            background-color: #d4adcf;
             color: #183C63;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-direction: column;
+            gap: 20px;
             max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        section {
-            background-color: #FFFFFF;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 8px;
+            margin: 0 auto 30px auto;
+            padding: 20px 0;
         }
 
         img {
@@ -36,13 +38,27 @@
             height: 80px;
         }
 
-        p {
+        div p {
             font-weight: bold;
         }
 
         .artigo-autor {
             font-weight: bold;
-            color: #555;
+        }
+
+        .imagem {
+            width: 200px;
+            height: 200px;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
         }
 
         footer {
@@ -55,10 +71,6 @@
         }
 
         button {
-            background-color: #f0f0f0;
-            border: 1px solid #ccc;
-            padding: 5px 10px;
-            border-radius: 4px;
             cursor: pointer;
             margin-right: 5px;
         }
@@ -67,48 +79,80 @@
 
 <body>
     <header>
-        <h1>Meu blog tech - Dilemas Digitais</h1>
+        <h1>Dilemas Digitais na Internet</h1>
         <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
         <button>❤️<span>0</span></button>
+        <button>👍<span>0</span></button>
     </header>
 
     <main>
-        <!-- Problema 1 -->
-        <section>
-            <img src="imagem-blog (1).png" alt="livro com simbolos">
-            <h2>Dilema 1: O Excesso de Tempo de Tela</h2>
-            <p class="artigo-autor">Por: Thulyani</p>
-            <p>Passamos horas nas redes sociais e jogos, o que prejudica o sono, os estudos e a nossa saúde.</p>
-            <p><strong>Solução:</strong> Use aplicativos para estipular um limite diário de tempo e faça pausas a cada 1 hora online.</p>
-            <button>❤️<span>0</span></button>
-            <button>💜<span>0</span></button>
-        </section>
+        <!-- Post 1: Dependência Digital -->
+        <article>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia">
+                <h2>Dilema 1: O Uso Excessivo das Telas</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Passar muitas horas seguidas nas redes sociais e jogos prejudica a saúde mental, o sono e o foco nos estudos.</p>
+                <p>💡 <strong>Solução:</strong> Defina limites de tempo diários nos aplicativos e faça pequenas pausas longe do celular.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="anupam-raisim-kerketta-2RUSOSHt7wQ-unsplash.svg" class="imagem" alt="Ilustração tecnologia">
+            </div>
+        </article>
 
-        <!-- Problema 2 -->
-        <section>
-            <img src="imagem-blog (1).png" alt="livro com simbolos">
-            <h2>Dilema 2: Notícias Falsas (Fake News)</h2>
-            <p class="artigo-autor">Por: Thulyani</p>
-            <p>Muitas mentiras são espalhadas rapidamente na internet, gerando desinformação e confusão.</p>
-            <p><strong>Solução:</strong> Sempre verifique a fonte da notícia antes de compartilhar e consulte sites de checagem confiáveis.</p>
-            <button>❤️<span>0</span></button>
-            <button>💜<span>0</span></button>
-        </section>
+        <!-- Post 2: Fake News -->
+        <article>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia">
+                <h2>Dilema 2: Propagação de Fake News</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Notícias falsas se espalham rapidamente pela internet, gerando pânico, desinformação e mentiras na rede.</p>
+                <p>💡 <strong>Solução:</strong> Sempre verifique se o site de notícias é confiável e cheque as informações antes de compartilhar.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="anupam-raisim-kerketta-2RUSOSHt7wQ-unsplash.svg" class="imagem" alt="Ilustração tecnologia">
+            </div>
+        </article>
 
-        <!-- Problema 3 -->
-        <section>
-            <img src="imagem-blog (1).png" alt="livro com simbolos">
-            <h2>Dilema 3: Falta de Privacidade e Segurança</h2>
-            <p class="artigo-autor">Por: Thulyani</p>
-            <p>Dados pessoais, senhas e fotos podem ser expostos ou roubados por falta de cuidado na rede.</p>
-            <p><strong>Solução:</strong> Crie senhas fortes e diferentes para cada conta e ative a verificação em duas etapas (2FA).</p>
-            <button>❤️<span>0</span></button>
-            <button>💜<span>0</span></button>
-        </section>
+        <!-- Post 3: Cyberbullying -->
+        <article>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia">
+                <h2>Dilema 3: Cyberbullying e Ataques</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>O anonimato na internet faz com que pessoas usem as redes sociais para ofender, excluir e atacar os outros.</p>
+                <p>💡 <strong>Solução:</strong> Não responda às provocações. Bloqueie o usuário ofensivo e denuncie a conta na plataforma.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="anupam-raisim-kerketta-2RUSOSHt7wQ-unsplash.svg" class="imagem" alt="Ilustração tecnologia">
+            </div>
+        </article>
+
+        <!-- Post 4: Segurança de Dados -->
+        <article>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia">
+                <h2>Dilema 4: Falta de Privacidade de Dados</h2>
+                <p class="artigo-autor">Por: Alexandra</p>
+                <p>Muitos sites coletam e expõem nossos dados pessoais, senhas e fotos sem a nossa autorização ou cuidado.</p>
+                <p>💡 <strong>Solução:</strong> Use senhas fortes, evite clicar em links suspeitos e ative a verificação em duas etapas.</p>
+                <button>❤️<span>0</span></button>
+                <button>👎<span>0</span></button>
+            </div>
+            <div>
+                <img src="imagem-blog.png" alt="livro com símbolos de tecnologia" class="imagem">
+            </div>
+        </article>
     </main>
 
     <footer>
-        <p> 2026 Meu Blog Tech | Desenvolvido por thulyani</p>
+        <p> 2026 Meu Blog Tech | Desenvolvido por Alexandra</p>
     </footer>
 
     <script>
@@ -129,6 +173,8 @@
             }
         })
     </script>
+
 </body>
 
 </html>
+
